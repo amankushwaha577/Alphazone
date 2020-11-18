@@ -3,16 +3,18 @@
     <head>
         <title>Study Room</title>
         <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link href="icons/all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  crossorigin="anonymous">
         <style>
             body
             {
-                background: url("Index Photos/Background.jpg");
+                background: url("../Index Photos/background.jpg");
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -28,7 +30,7 @@
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#StudyRoomNavBar"  >
                 <span class="navbar-toggler-icon"></span>
             </button>
-           
+
             <div class="collapse navbar-collapse" id="StudyRoomNavBar">
                 <ul class="navbar-nav ml-auto" >
                     <li class="nav-item active ">
@@ -50,7 +52,6 @@
                             <a class="dropdown-item" href="../Books Html/Java and python.html">JAVA AND PYTHON</a>
                         </div>
                     </li>
-
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="far fa-file-pdf"></i> Notes PDF</a>
                         <div class="dropdown-menu">
@@ -71,7 +72,7 @@
                         <a class="nav-link" href="#">Faculty Zone</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="Owner.html">Dev:Aman Kushwaha</a>
+                        <a class="nav-link " href="../Owner.html">Dev:Aman Kushwaha</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -82,9 +83,114 @@
         </nav>
 
 
-       
-       
-       
+        <!-- Start Header Jumbotron-->
+        <header class="jumbotron back-image" style="background-image: url('Books Photo/banner 4.jpg');background-size: cover;background-repeat: no-repeat;">
+            <div class="text-center" style="margin-top: 120px;">
+                <h1 style="color:red; font-family:'Black Ops One';">Get Most Popular Operating System Handwritten Notes</h1>
+                <p class="font-italic font-weight-bold st text-primary">Learn and Implement</p>
+                <a href="#" class="btn btn-outline-danger mr-4">Download</a>
+                <a href="#" class="btn btn-outline-danger">Open</a>
+            </div>
+        </header> <!-- End Header Jumbotron -->
+
+
+
+
+        <!--Tab Content-->
+        <div class="container mt-5 text-danger">
+            <h2>Module Wise Notes By Some Good Students Of Our GLA</h2>
+            <br>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Module 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Module 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu2">Module 3</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content text-warning">
+                <div id="home" class="container tab-pane active"><br>
+                    <p>Module 1: 15 Marks<br>Time 1:00H</p>
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <p>Module 2: 15 Marks<br>Time 1:00H</p>
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <p><p>Module 3:50 Marks<br>Time 3:00H</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Box -->
+        <div class="container">
+            <div class="jumbotron row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">OS</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Handwritten Notes Mid-1</a>
+                            </h3>
+                            <p class="card-text mb-auto">Download or View these handwritten notes for Smart Learning.</p>
+                            <a href="Notes/os 1.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="Books Photo/os 2.png" data-holder-rendered="true">
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">OS</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Handwritten Notes Mid-2</a>
+                            </h3>
+                            <p class="card-text mb-auto">Download or View these handwritten notes for Smart Learning.</p>
+                            <a href="Notes/os 2.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Books Photo/os 3.png" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">OS</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Handwritten Notes Mid-3</a>
+                            </h3>
+                            <p class="card-text mb-auto">Download or View these handwritten notes for Smart Learning.</p>
+                            <a href="Notes/os 3.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Books Photo/cn 1.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success"><h2 style="color:red; font-family:'Black Ops One';">Unit 1</h2><br>
+                    <p style="font-family: 'Fredoka One';">Operating Systems Introduction: What is an Operating System, Simple Batch Systems, Multi-programmed Batches systems, Time-Sharing Systems, Personal-computer systems, Parallel systems, Distributed Systems, Real-Time Systems, OS – A Resource Manager. Memory Organization & Management: Memory Organization, Memory Hierarchy, Memory Management Strategies, Contiguous versus non- Contiguous memory allocation, Partition Management Techniques, Logical versus Physical Address space, swapping, Paging, Segmentation, Segmentation with PagingVirtual Memory: Demand Paging, Page Replacement, Page-replacement Algorithms, Performance of Demand Paging, Thrashing, Demand Segmentation, and Overlay Concepts.</p></a>
+                    
+                <a href="#" class="list-group-item list-group-item-action list-group-item-warning"><h2 style="color:red; font-family:'Black Ops One';">Unit 2</h2><br>
+                    <p style="font-family: 'Fredoka One';">Processes: Introduction, Process states, process management, Interrupts, Interprocess Communication Threads: Introduction, Thread states, Thread Operation, Threading Models. Processor Scheduling: Scheduling levels, pre-emptive vs no pre-emptive scheduling, priorities, scheduling objective, scheduling criteria, scheduling algorithms, demand scheduling, real-time scheduling.Process Synchronization: Mutual exclusion, software solution to Mutual exclusion problem, hardware solution to Mutual exclusion problem, semaphores, Critical section problems. Case study on Dining philosopher problem, Barbershop problem, etc.</p></a>
+                    
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info"><h2 style="color:red; font-family:'Black Ops One';">Unit 3</h2><br>
+                    <p style="font-family: 'Fredoka One';">Deadlocks: examples of deadlock, resource concepts, necessary conditions for deadlock, deadlock solution, deadlock prevention, deadlock avoidance with Bankers algorithms, deadlock detection, deadlock recovery. Device Management: Disk Scheduling Strategies, Rotational Optimization, System Consideration, Caching, and Buffering. File System: Introduction, File Organization, Logical File System, Physical File System, File Allocation strategy, Free Space Management, File Access Control, Data Access Techniques, Data Integrity Protection, Case study on file system viz FAT32, NTFS, Ext2/Ext3, etc. I/O Systems: Kernel I/O Subsystem, Disk Structure, Disk Scheduling, Disk Management, Swap Space Management, RAID Structure, Case study on Linux System, Case study on Windows XP.</p></a>
+            </div>
+        </div>
+
+
+
+
         <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
             <div class="container">   <!-- Start Footer Container -->
                 <div class="row py-3">    <!-- Start Footer Row -->
