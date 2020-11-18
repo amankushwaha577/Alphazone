@@ -1,16 +1,235 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Study Room</title>
         <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="icons/all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  crossorigin="anonymous">
+        <style>
+            body
+            {
+                background: url("../Index Photos/background.jpg");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
+        <!--C1:Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="padding: 0;background: black;">
+            <a class="navbar-brand" href="../Index Photos/logo.png" target="_self" >
+                <img src="../Index Photos/logo.png" style="width: 270px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#StudyRoomNavBar"  >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="StudyRoomNavBar">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item active ">
+                        <a class="nav-link text-primary" href="../index.html"><b><i class="fas fa-home" style="color:purple;"></i> Home</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book-open"></i> Book PDF</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="CN.html">Computer Network</a>
+                            <a class="dropdown-item" href="TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="OS.html">Operating System</a>
+                            <a class="dropdown-item" href="DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="Java and python.html">JAVA AND PYTHON</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="far fa-file-pdf"></i> Notes PDF</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../Notes Html/Computer Network.html">Computer Network</a>
+                            <a class="dropdown-item" href="../Notes Html/TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="../Notes Html/OS.html">Operating System</a>
+                            <a class="dropdown-item" href="../Notes Html/DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="../Notes Html/Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="../Notes Html/DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="../Notes Html/COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="../Notes Html/Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="../Notes Html/Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="../Notes Html/Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="../Notes Html/Java and python.html">JAVA AND PYTHON</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Faculty Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../Owner.html">Dev:Aman Kushwaha</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+     
+        
+
+        <!-- Start Header Jumbotron-->
+        <header class="jumbotron back-image" style="background-image: url('Books Photo/Banner 12.jpg');background-size: cover;background-repeat: no-repeat;">
+            <div class="text-center" style="margin-top: 120px;">
+                <h1 style="color:red; font-family:'Black Ops One';">Get Most Popular Python and java Books</h1>
+                <p class="font-italic font-weight-bold st text-primary">Learn and Implement</p>
+                <a href="#" class="btn btn-outline-danger mr-4">Download</a>
+                <a href="#" class="btn btn-outline-danger">Open</a>
+            </div>
+        </header> <!-- End Header Jumbotron -->
+       
+        <!-- Download Box -->
+        <div class="container">
+            <div class="jumbotron row mb-2">
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">Java</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Kathy sierra</a>
+                            </h3>
+                            <p class="card-text mb-auto">Elaborate coverage of Networking, Socket Programming, JDBCand Servlets with programming examples </p>
+                            <a href="Books/java by kathey sierra.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="Books Photo/java 3.png" data-holder-rendered="true">
+                    </div>
+                </div>
+               
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">Java</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Raghvan</a>
+                            </h3>
+                            <p class="card-text mb-auto">Features of Java 2and J2SE Exception handling, packages and interfaces Distributed applications using Java RMI</p>
+                            <a href="Books/java by p raghvan.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Books Photo/java 1.png" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+                
+            
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">Python</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Guido van Rossum</a>
+                            </h3>
+                            <p class="card-text mb-auto"> When using 2.0 or 2.1, upgrade to 2.0.1 / 2.1.1 – 2.1.2 is coming soon! </p>
+                            <a href="Books/python by guido.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 200px; height: 250px;" src="Books Photo/python 1.jpg" data-holder-rendered="true">
+                    </div>
+                </div>
+             
+                <div class="col-md-6">
+                    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                        <div class="card-body d-flex flex-column align-items-start">
+                            <strong class="d-inline-block mb-2 text-primary">Python</strong>
+                            <h3 class="mb-0">
+                                <a class="text-danger" href="#">Mark Lultz</a>
+                            </h3>
+                            <p class="card-text mb-auto">This book provides an introduction to the Python programming language. Python is a popular open source programming language </p>
+                            <a href="Books/python by mark lultz.pdf" class="btn btn-outline-success">Download</a>
+                        </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="Books Photo/python 3.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <!-- Start Course  -->
+        <div class="container">
+            <div class="jumbotron pt-5" id="Courses">
+                <h1 class="text-center" style="color:red; font-family:'Black Ops One';">About These Books ?</h1> <!-- Course Heading -->
+                <div class="row mt-4">  
+                    <div class="col-lg-6 mb-4">   
+                        <img src="Books Photo/java 4.jpg" alt="" class="img-fluid">
+                    </div> 
+                    <div class="col-lg-6">   
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Java By Kathy sieraa</h2> <br>
+                        <p style="font-family:'Bubblegum Sans';color:blue;">Kathy Sierra was a lead developer for the SCJP exam for Java 5 and Java 6. Sierra worked as a Sun "master trainer," and in 1997, founded JavaRanch.com, the world's largest Java community website. Her bestselling Java books have won multiple Software Development Magazine awards, and she is a founding member of Sun's Java Champions program.  Bert Bates was a lead developer for many of Sun's Java certification exams including the SCJP for Java 5 and Java 6. He is also a forum moderator on JavaRanch.com, and has been developing software for more than 20 years. Bert is the co-author of several bestselling Java books, and he's a founding member of Sun's Java Champions program. </p>
+                    </div> 
+                </div> 
+
+                <div class="row mt-4">    
+                    <div class="col-lg-8">  
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Java By Raghvan</h2> <br>
+                        <p style="font-family:'Bubblegum Sans';color:orange;">This book introduces the principles of object-oriented programming through Java. The authors have taken care to give lucid, simple examples that make the reader understand the concepts easily. The examples do not have any reference from previous chapters, and can all beeasily understood independently ofthe previous examples. The book isdesigned to becompatible with Java Development Kit (JDK) v.1.5and later.Afew chapters briefly mention some of the newer classes and methods available in JDK v. 1.6. They have provided guidelines to create and run the program inthe Command window ofthe Windows environment, and the use of Netbeans IDE to develop an application. Through this, the reader can gain excellent practical skills inanalyzing and running the programs. </p>
+                    </div>  
+
+                    <div class="col-lg-4 mb-4">  
+                        <img src="Books Photo/java 5.png" alt="" class="img-fluid">
+                    </div>    
+                </div>   
+                
+                
+                <div class="row mt-4">  
+                    <div class="col-lg-6 mb-4">   
+                        <img src="Books Photo/python 3.jpg" alt="" class="img-fluid">
+                    </div> 
+                    <div class="col-lg-6">   
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Python by Guido</h2> <br>
+                        <p style="font-family:'Bubblegum Sans';color:blue;"> interactive "shell" • basic types: numbers, strings • container types: lists, dictionaries, tuples • variables • control structures • functions & procedures • classes & instances • modules & packages • exceptions • files & standard library • what's new in Python 2.0 and beyond</p>
+                    </div> 
+                </div> 
+
+                <div class="row mt-4">    
+                    <div class="col-lg-8">  
+                        <h2 class="text-center"  style="font-family:'Bubblegum Sans';color:green;">Python by Mark Lultz</h2> <br>
+                        <p style="font-family:'Bubblegum Sans';color:orange;">This book provides an introduction to the Python programming language. Python is a popular open source programming language used for both standalone programs and scripting applications in a wide variety of domains. It is free, portable, powerful, and remarkably easy and fun to use. Programmers from every corner of the software industry have found Python’s focus on developer productivity and software quality to be a strategic advantage in projects both large and small.</p>
+                    </div>  
+
+                    <div class="col-lg-4 mb-4">  
+                        <img src="Books Photo/python 4.jpg" alt="" class="img-fluid">
+                    </div>    
+                </div>  
+               
+            </div> 
+        </div>
+
+
+
+
+        <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
+            <div class="container">   <!-- Start Footer Container -->
+                <div class="row py-3">    <!-- Start Footer Row -->
+                    <div class="col-md-6">      <!-- Start Footer 1st Column -->
+                        <div>
+                            <span>Follow Us: </span>
+                            <a href="https://www.facebook.com/GeekyShow" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+                            <a href="https://twitter.com/Geekyshow1" target="_blank"><i class="fab fa-twitter pr-3"></i></a>
+                            <a href="https://www.youtube.com/user/GeekyShow1" target="_blank"><i class="fab fa-youtube pr-3"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-rss pr-3"></i></a>
+                        </div>
+                    </div>    <!-- End Footer 1st Column -->
+
+                    <div class="col-md-6 text-right">   <!-- Start Footer 2nd Column -->
+                        <small> Designed by <a href="https://www.geekyshows.com" target="_blank">AMAN KUSHWAHA</a>© Copyright </small>
+                    </div>    <!-- End Footer 2nd Column -->
+                </div>    <!-- End Footer Row -->
+            </div>    <!-- End Footer Container -->
+        </footer> <!-- End Footer -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
     </body>
 </html>
