@@ -1,0 +1,18 @@
+#nprogress .bar {
+    height: 4px !important;
+    background: red !important;
+}
+
+.nav a:hover {
+    border-radius: 0px;
+}
+
+body
+{
+    background-image: url("back.jpg");
+    background-position: fixed ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
