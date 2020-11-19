@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Study Room CEO</title>
+        <title>Study Room</title>
         <meta charset="UTF-8">
+        <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link href="icons/all.css" rel="stylesheet" type="text/css"/>
@@ -10,19 +12,18 @@
         <style>
             body
             {
-                background: url("Photos/amanBackground.jpg");
+                background: url("Index Photos/Background.jpg");
                 background-attachment: fixed;
-                background-repeat: no-repeat; 
+                background-repeat: no-repeat;
                 background-size: cover;
             }
         </style>
     </head>
-
     <body>
-       <!--C1:Navigation Bar-->
+        <!--C1:Navigation Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="padding: 0;background: black;">
-            <a class="navbar-brand" href="Photos/NotesLibraryLogo.jpg" target="_self" >
-                <img src="Photos/NotesLibraryLogo.jpg" style="width: 270px;">
+            <a class="navbar-brand" href="Index Photos/logo.png" target="_self" >
+                <img src="Index Photos/logo.png" style="width: 270px;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#StudyRoomNavBar"  >
                 <span class="navbar-toggler-icon"></span>
@@ -30,51 +31,48 @@
 
             <div class="collapse navbar-collapse" id="StudyRoomNavBar">
                 <ul class="navbar-nav ml-auto" >
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><b><i class="fas fa-home" style="color:purple"></i> Home</b></a>
+                    <li class="nav-item active ">
+                        <a class="nav-link text-primary" href="index.html"><b><i class="fas fa-home" style="color:purple;"></i> Home</b></a>
                     </li>
-
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book-open"></i> Book PDF</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="WebBooksPDF.html">Computer Network</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Theory Of Computation</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Operating System</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">DBMS</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Discrete Mathematics</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Data Structure</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Computer Organization</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Compiler Design</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">Microprocessor</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">C &Algorithms</a>
-                            <a class="dropdown-item" href="WebBooksPDF.html">JAVA AND PYTHON</a>
+                            <a class="dropdown-item" href="Books Html/CN.html">Computer Network</a>
+                            <a class="dropdown-item" href="Books Html/TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="Books Html/OS.html">Operating System</a>
+                            <a class="dropdown-item" href="Books Html/DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="Books Html/Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="Books Html/DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="Books Html/COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="Books Html/Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="Books Html/Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="Books Html/Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="Books Html/Java and python.html">JAVA AND PYTHON</a>
                         </div>
                     </li>
-
+                  
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="far fa-file-pdf"></i> Notes PDF</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="WebNotesPDF.html">Computer Network</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Theory Of Computation</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Operating System</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">DBMS</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Discrete Mathematics</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Data Structure</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Computer Organization</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Compiler Design</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">Microprocessor</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">C &Algorithms</a>
-                            <a class="dropdown-item" href="WebNotesPDF.html">JAVA AND PYTHON</a>
+                            <a class="dropdown-item" href="Notes Html/CN.html">Computer Network</a>
+                            <a class="dropdown-item" href="Notes Html/TAFL.html">Theory Of Computation</a>
+                            <a class="dropdown-item" href="Notes Html/OS.html">Operating System</a>
+                            <a class="dropdown-item" href="Notes Html/DBMS.html">DBMS</a>
+                            <a class="dropdown-item" href="Notes Html/Descrete.html">Discrete Mathematics</a>
+                            <a class="dropdown-item" href="Notes Html/DS.html">Data Structure</a>
+                            <a class="dropdown-item" href="Notes Html/COA.html">Computer Organization</a>
+                            <a class="dropdown-item" href="Notes Html/Compiler.html">Compiler Design</a>
+                            <a class="dropdown-item" href="Notes Html/Micro.html">Microprocessor</a>
+                            <a class="dropdown-item" href="Notes Html/Algo.html">C &Algorithms</a>
+                            <a class="dropdown-item" href="Notes Html/Java and python.html">JAVA AND PYTHON</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Latest Assignments</a>
+                        <a class="nav-link" href="http://localhost:3000/">Faculty Zone</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link " href="Owner.html">Dev:Aman Kushwaha</a>
                     </li>
-
-
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search">
@@ -82,6 +80,7 @@
                 </form>
             </div>
         </nav>
+
 
 
 
