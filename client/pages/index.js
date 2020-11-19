@@ -82,7 +82,7 @@ const Home = ({ categories }) => {
         <Layout>
             <div className="row">
                 <div className="col-md-12">
-                    <h1 className="font-weight-bold">Browse Tutorials/Courses</h1>
+                    <h1 className="font-weight-bold">Share ZOOM Recording Links</h1>
                     <br />
                 </div>
             </div>
