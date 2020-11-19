@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const Admin = ({ user }) => (
     <Layout>
-        <h1>Admin Dashboard</h1>
+        <h1 className="text-danger">Admin Dashboard</h1>
         <br />
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 jumbotron">
                 <ul className="nav flex-column">
                     <li className="nav-item">
                         <a href="/admin/category/create" className="nav-link">

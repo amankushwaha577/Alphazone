@@ -86,7 +86,7 @@ const Read = ({ user, token }) => {
         <Layout>
             <div className="row">
                 <div className="col">
-                    <h1>List of categories</h1>
+                    <h1 className="text-primary">List of categories</h1>
                     <br />
                     {success && showSuccessMessage(success)}
                 </div>

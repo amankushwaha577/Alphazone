@@ -74,9 +74,9 @@ const Login = () => {
 
     return (
         <Layout>
-            <div class="container">
+            
             <div className="jumbotron col-md-6 offset-md-3">
-                <h1 >User/Admin Login</h1>
+                <h1>User/Admin Login</h1>
                 <br />
                 {success && showSuccessMessage(success)}
                 {error && showErrorMessage(error)}
@@ -85,7 +85,7 @@ const Login = () => {
                     <a className="text-danger float-right">Forgot Password</a>
                 </Link>
             </div>
-            </div>
+        
         </Layout>
     );
 };
