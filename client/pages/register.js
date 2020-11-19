@@ -169,7 +169,7 @@ const Register = () => {
 
     return (
         <Layout>
-            <div className="jumbotron col-md-6 offset-md-3">
+            <div className="col-md-6 offset-md-3">
                 <h1>Register</h1>
                 <br />
                 {success && showSuccessMessage(success)}

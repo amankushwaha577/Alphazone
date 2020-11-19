@@ -82,7 +82,7 @@ const Home = ({ categories }) => {
         <Layout>
             <div className="row">
                 <div className="col-md-12">
-                    <h1 className="font-weight-bold text-danger">Faculty Zone </h1>
+                    <h1 className="font-weight-bold">Browse Tutorials/Courses</h1>
                     <br />
                 </div>
             </div>
@@ -90,7 +90,7 @@ const Home = ({ categories }) => {
             <div className="row">{listCategories()}</div>
 
             <div className="row pt-5">
-                <h2 className="font-weight-bold pb-3 text-primary">Trending {popular.length}</h2>
+                <h2 className="font-weight-bold pb-3">Trending {popular.length}</h2>
                 {<div className="col-md-12 overflow-hidden">{listOfLinks()}</div>}
             </div>
         </Layout>

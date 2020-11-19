@@ -118,7 +118,7 @@ const Create = ({ user, token }) => {
     return (
         <Layout>
             <div className="row">
-                <div className="jumbotron col-md-6 offset-md-3">
+                <div className="col-md-6 offset-md-3">
                     <h1>Create category</h1>
                     <br />
                     {success && showSuccessMessage(success)}
