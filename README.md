@@ -9,15 +9,15 @@ This website is developed for B.Tech Computer Science students in  order to prov
 
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
 
-### Tech
+## Software Technologies
 
-Alphazone uses 9 Technologies
+Alphazone uses 8 Technologies
 
 Technology| Percentafe of usage
 ------------ | -------------
 HTML5 | 8%
-Bootstrap 4 | 29%
-CSS 3 | 16%
+Bootstrap 4 | 16%
+CSS 3 | 29%
 java Script  | 9%
 Express | 7%
 React | 18%
@@ -28,7 +28,7 @@ Node  | 6%
 ## Folder Structure
 
     .
-    ├── index.html
+    ├── index.html           
     ├── folder/CSS                       
     ├── folder/Books HTML               
     ├── folder/Notes Html             
@@ -37,5 +37,11 @@ Node  | 6%
     ├── folder/Client
     ├── folder/Server
     ├── folder/folder/Index Photos
+    ├── folder/Synopsis              
+    ├── folder/WireFrame             
+    ├── folder/DFD              
+    ├── folder/Usecase
+    ├── folder/Certificate
+    ├── folder/Presentation
     ├── LICENSE
     └── README.md
