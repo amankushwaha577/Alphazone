@@ -57,6 +57,24 @@ Update User PC Public Key | /api/v1/user/computer/public/key/update | -
 
 
 
+# hardware and Softeare Requirement
+
+### Hardware Requirement
+
+```sh
+Personal Computer with minimum of 4GB RAM and core i3 Processor
+```
+
+### Software Requirement
+
+```sh
+Windows Operating System.
+Apache NETBEANS IDE 11.3 
+GitHUB Desktop 2 
+```
+
+
+
 
 
 # Folder Structure
