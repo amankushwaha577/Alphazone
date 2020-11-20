@@ -1,4 +1,4 @@
-# Alphazone
+<img src="readm/logo.png" height=100 >
 
 This website is developed for B.Tech Computer Science students in  order to provide best educational hand written notes ,standard notes and   video lecture series.
 
