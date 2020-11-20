@@ -13,12 +13,16 @@ This website is developed for B.Tech Computer Science students in  order to prov
 
 Alphazone uses 9 Technologies
 
-Front End| Backend
+Technology| Percentafe of usage
 ------------ | -------------
-HTML5 | Developing
-Bootstrap 4 | Pending
-CSS 3 | Pending
-java Script  | Developing
+HTML5 | 8%
+Bootstrap 4 | 29%
+CSS 3 | 16%
+java Script  | 9%
+Express | 7%
+React | 18%
+Next | 11%
+Node  | 6%
 
 
 ## Folder Structure
