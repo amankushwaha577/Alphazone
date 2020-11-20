@@ -10,14 +10,19 @@ This website is developed for B.Tech Computer Science students in  order to prov
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
 
 
+
+
 # New Features!
 
   - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Zoom Lectures Sharing Facility for Teachers`
   - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Downloadable Handwritten notes of every Computer Science Subject for All CSE Students`
   - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Downloadable Free Standard Books of every Computer Science Subject for All CSE Students`
   - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Category wise full listed Syllabus`
+  
+  
+  
 
-## Tech
+# Tech
 
 Alphazone uses 8 Technologies
 
@@ -38,7 +43,7 @@ Node  | 6%
 
 
 
-## Folder Structure
+# Folder Structure
 
     .
     ├── index.html           
