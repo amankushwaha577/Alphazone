@@ -1,7 +1,7 @@
 # Alphazone
 # Size Limit [![Cult Of Martians][cult-img]][cult]
 
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+<img src="A:\netbeans\Alphazone\public_html\Alphazone\2.Wireframe\Screenshot (677).png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
 Size Limit is a performance budget tool for JavaScript. It checks every commit
