@@ -63,3 +63,22 @@ Node  | 6%
     ├── folder/Presentation
     ├── LICENSE
     └── README.md
+    
+    
+# Web API
+
+Web API| URL | Description
+------------ | ------------- | -------------
+User Register| /api/v1/user/register | -
+User Login | /api/v1/user/login | -
+User Logout | /api/v1/user/:userID/logout | -
+User Auth | /api/v1/user/authentication | -
+User Info | /api/v1/user/:userID | -
+User Online PC List| /api/v1/user/computer/online | -
+Public PC Access | /api/v1/computer/public/access | -
+User PC List | /api/v1/user/computer | -
+Update User Account | /api/v1/user/update | -
+Update User Password | /api/v1/user/password/edit | -
+Update User PC Public status | /api/v1/user/computer/public/status/update | -
+Update User PC Public Key | /api/v1/user/computer/public/key/update | -
+
