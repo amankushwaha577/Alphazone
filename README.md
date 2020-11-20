@@ -38,6 +38,24 @@ Next | 11%
 Node  | 6%
 
 
+# hardware and Softeare Requirement
+
+### Hardware Requirement
+
+```sh
+Personal Computer with minimum of 4GB RAM and core i3 Processor
+```
+
+### Software Requirement
+
+```sh
+Windows Operating System.
+Apache NETBEANS IDE 11.3 
+GitHUB Desktop 2 
+```
+
+
+
 # Web API
 
 Web API| URL | Description
@@ -56,22 +74,6 @@ Update User PC Public status | /api/v1/user/computer/public/status/update | -
 Update User PC Public Key | /api/v1/user/computer/public/key/update | -
 
 
-
-# hardware and Softeare Requirement
-
-### Hardware Requirement
-
-```sh
-Personal Computer with minimum of 4GB RAM and core i3 Processor
-```
-
-### Software Requirement
-
-```sh
-Windows Operating System.
-Apache NETBEANS IDE 11.3 
-GitHUB Desktop 2 
-```
 
 
 
