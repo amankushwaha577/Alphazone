@@ -13,11 +13,25 @@ This website is developed for B.Tech Computer Science students in  order to prov
 
 Alphazone uses 9 Technologies
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
+Front End| Backend
+------------ | -------------
+HTML5 | Developing
+Bootstrap 4 | Pending
+CSS 3 | Pending
+java Script  | Developing
+
+
+## Folder Structure
+
+    .
+    ├── index.html
+    ├── folder/CSS                       
+    ├── folder/Books HTML               
+    ├── folder/Notes Html             
+    ├── folder/Photos               
+    ├── folder/icons
+    ├── folder/Client
+    ├── folder/Server
+    ├── folder/folder/Index Photos
+    ├── LICENSE
+    └── README.md
