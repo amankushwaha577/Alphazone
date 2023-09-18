@@ -26,19 +26,19 @@ This website is developed for B.Tech Computer Science students in  order to prov
 
 Alphazone uses 8 Technologies
 
-Technology| Percentafe of usage
+Technology| Scope
 ------------ | -------------
-HTML5 | 8%
-Bootstrap 4 | 16%
-CSS 3 | 29%
-java Script  | 9%
-Express | 7%
-React | 18%
-Next | 11%
-Node  | 6%
+HTML5 | Front End
+Bootstrap 4 | Front End
+CSS 3 | Front End
+Express | Front End
+Next | Front End
+java Script  | Front End and Back End
+React | Front End and Back End
+Node  | Front End and Back End
 
 
-# hardware and Software Requirement
+# Hardware and Software Requirement
 
 ### Hardware Requirement
 
