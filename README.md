@@ -43,7 +43,7 @@ Node  | Front End and Back End
 ### Hardware Requirement
 
 ```sh
-Personal Computer with minimum of 4GB RAM and core i3 Processor
+Personal Computer with minimum of 4GB RAM and core i7 Processor
 ```
 
 ### Software Requirement
