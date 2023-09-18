@@ -4,8 +4,14 @@
 This website is developed for B.Tech Computer Science students in  order to provide best educational hand written notes ,standard notes and   video lecture series.
 
 
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) ` If some time a student missed the class than there is a chance that he  will skip that topic of that class and if somehow if he want to cover that                topic from books it will take huge amount of time so here presence of handwritten notes student will save his huge amount of time.`
- - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `The existing educational websites does not provides the all content related to subjects if they are providing than there is a chance that they  all are not providing handwritten notes and video lectures at the same  instance so here alphoze removes this disadvantage by providing all these facility`
+  -  `📚 Unlock the Power of Education: Step into a world of boundless knowledge where learning knows no boundaries. Welcome to our meticulously crafted e-learning platform, where the pursuit of education is made accessible to all, irrespective of location or circumstance.`
+ - `🌟 Experience Learning Redefined: Our website, thoughtfully constructed with HTML, CSS, and Bootstrap, is a testament to our commitment to providing a seamless learning experience. We've created a virtual sanctuary where students of all ages and backgrounds can thrive.`
+
+  - `📖 A Treasure Trove of Resources: Dive into a vast library of academic riches. From textbooks and study notes to comprehensive PDF resources, we offer an extensive collection to cater to your educational needs. Whether you're preparing for exams, embarking on a new course, or simply curious to learn, we've got you covered.`
+ - `🌐 Global Accessibility: Geography should never be a barrier to learning. Our website transcends borders, ensuring that students worldwide can access educational materials that enrich their lives and broaden their horizons.`
+
+ - `🔍 User-Friendly Design: Navigating through our website is a breeze, thanks to our user-friendly interface. Our Bootstrap-powered design ensures that you can easily find and download the resources you need, saving you time and effort.`
+ - `🤝 Community and Support: Join a vibrant community of learners just like you. Connect, collaborate, and grow together. Whether you seek assistance with a tricky subject or wish to share your own knowledge, our platform fosters a sense of belonging.`
 
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
 
