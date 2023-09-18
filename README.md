@@ -19,14 +19,7 @@ This website is developed for B.Tech Computer Science students in  order to prov
  
 
 
-# New Features!
 
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Zoom Lectures Sharing Facility for Teachers`
-  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Downloadable Handwritten notes of every Computer Science Subject for All CSE Students`
-  - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Downloadable Free Standard Books of every Computer Science Subject for All CSE Students`
-  - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Category wise full listed Syllabus`
-  
-  
   
 
 # Tech
