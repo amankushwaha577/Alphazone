@@ -14,7 +14,7 @@ This website is developed for B.Tech Computer Science students in  order to prov
 
 
   
-![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
+![1 gif](https://user-images.githubusercontent.com/53748350/268626287-b20e78bb-1da8-4807-bc21-29778f94db82.gif)
 
  
 
