@@ -10,9 +10,10 @@ This website is developed for B.Tech Computer Science students in  order to prov
   - `📖 A Treasure Trove of Resources: Dive into a vast library of academic riches. From textbooks and study notes to comprehensive PDF resources, we offer an extensive collection to cater to your educational needs. Whether you're preparing for exams, embarking on a new course, or simply curious to learn, we've got you covered.`
  - `🌐 Global Accessibility: Geography should never be a barrier to learning. Our website transcends borders, ensuring that students worldwide can access educational materials that enrich their lives and broaden their horizons.`
 
- - `🔍 User-Friendly Design: Navigating through our website is a breeze, thanks to our user-friendly interface. Our Bootstrap-powered design ensures that you can easily find and download the resources you need, saving you time and effort.`
- - `🤝 Community and Support: Join a vibrant community of learners just like you. Connect, collaborate, and grow together. Whether you seek assistance with a tricky subject or wish to share your own knowledge, our platform fosters a sense of belonging.`
+- `📜 Open for All: Best of all, our platform is free and open to anyone with a thirst for knowledge. Education should be a right, not a privilege, and we're proud to stand by this principle.`
 
+
+  
 ![1 gif](https://user-images.githubusercontent.com/53748350/99796627-d32aa780-2b53-11eb-8b87-426ce4752066.gif)
 
  
@@ -61,31 +62,6 @@ GitHUB Desktop 2
 ```
 
 
-
-
-
-
-
-# Folder Structure
-
-    .
-    ├── index.html           
-    ├── folder/CSS                       
-    ├── folder/Books HTML               
-    ├── folder/Notes Html             
-    ├── folder/Photos               
-    ├── folder/icons
-    ├── folder/Client
-    ├── folder/Server
-    ├── folder/folder/Index Photos
-    ├── folder/Synopsis              
-    ├── folder/WireFrame             
-    ├── folder/DFD              
-    ├── folder/Usecase
-    ├── folder/Certificate
-    ├── folder/Presentation
-    ├── LICENSE
-    └── README.md
     
     
    License
