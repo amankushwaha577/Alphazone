@@ -3,7 +3,7 @@
 
 This website is developed for B.Tech Computer Science students in  order to provide best educational hand written notes ,standard notes and   video lecture series.
   
-
+  
   -  `📚 Unlock the Power of Education: Step into a world of boundless knowledge where learning knows no boundaries. Welcome to our meticulously crafted e-learning platform, where the pursuit of education is made accessible to all, irrespective of location or circumstance.`
  - `🌟 Experience Learning Redefined: Our website, thoughtfully constructed with HTML, CSS, and Bootstrap, is a testament to our commitment to providing a seamless learning experience. We've created a virtual sanctuary where students of all ages and backgrounds can thrive.`
 
